@@ -2,6 +2,7 @@
 A Tech Blog to get the latest news about tech
 
 ## Deployed app
+https://aqueous-chamber-69974.herokuapp.com/
 
 ## Technologies used
 - Sequelize ORM
