@@ -3,7 +3,10 @@ const sequelize = require("../config/connection");
 const { Post } = require("../models");
 
 router.get("/", (req, res) => {
-  res.render("homepage");
+  Post.findAll({}).then((dbPostData) => {
+    const posts = dbPostData.map(post => post.get({ plain: true }));
+    res.render("homepage",{posts});
+  });
 });
 
 router.get("/login", (req, res) => {
