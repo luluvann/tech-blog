@@ -1,4 +1,11 @@
 <div>
+    <ul>
+    {{#each posts as |post|}}
+    <li>
+        {{post.title}}
+    </li>
+    {{/each}}
+    </ul>
   <button>
     <a href="/dashboard/new">New Post</a>
   </button>
