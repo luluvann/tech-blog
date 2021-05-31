@@ -1,4 +1,15 @@
 # Tech Blog Full Stack
+A Tech Blog to get the latest news about tech
+
+## Deployed app
+
+## Technologies used
+- Sequelize ORM
+- Express.js
+- Handlebars
+- Connect session sequelize
+- Bcrypt
+- JavaScript
 
 ## Installation
 1. Clone the repo 
