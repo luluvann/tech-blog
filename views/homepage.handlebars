@@ -1,14 +1,11 @@
-<div>
-  Log in or Sign Up to The Tech Blog to see all the Posts!
 
   <div>
     <ul>
       {{#each posts as |post|}}
         <li>
           <p>{{post.title}}</p>
-          <p class="created_date">{{post.created_date}}</p>
+          <p class="created_date">{{post.createdAt}}</p>
         </li>
       {{/each}}
     </ul>
   </div>
-</div>
