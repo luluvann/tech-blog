@@ -22,10 +22,10 @@ a {
 /*header*/
 header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: center;
-  align-items: flex-start;
+  justify-content: space-between;
+  align-items: center;
   height: 100px;
   padding: 30px 40px 10px 40px;
 }
@@ -39,7 +39,8 @@ h1{
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  width: 400px;
+  align-items: center;
+  width: 300px;
 }
 
 /*Forms*/
